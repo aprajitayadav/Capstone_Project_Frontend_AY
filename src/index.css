@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/*Apra added new classes*/
+.logosize{
+  height: 50%;
+  width: 50%;
+  justify-content: center;
+  display: flex;
+  float: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Play Button */
+/* .btn{
+  margin-top: -55%;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+  margin:  auto;
+  margin-bottom: auto;
+} */
+
+.container .btn {
+ position: absolute;
+ top: 45%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ -ms-transform: translate(-50%, -50%);
+ background-color: gray;
+ color: white;
+ font-size: 25px;
+ padding: 12px 22px;
+ border: none;
+ cursor: pointer;
+ border-radius:20px;
+}
+
+.gameContainer{
+  display: flex;
+  justify-content: center;
+}
+
+.options{
+  justify-content: center;
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+  width:100%;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: navy;
+}
+
+li {
+  float: left;
+  width:10%;
+  font-size:20px;
+}
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 98%;
+   background-color: aqua;
+   color: white;
+   margin: 15px;
+   font-size:15px;
+   text-align: center;
+   background-image: url('note.png');
+}
+
+li a {
+  background-image:'http://localhost:3000/note.png';
+  display: block;
+  color: white;
+  width: 100%;
+  text-align: center;
+  padding: 0px 0px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color:#111;
+}
+
+.bgimg {
+    background-image: url('note.png');
+}
+.button {
+  margin: 10px;
+  font-size:15px;
+  color:white;
+  text-align: center;
+}
